@@ -11,10 +11,7 @@ opencv-python-headless==4.9.0.80
 # ML / DL
 torch==2.1.2
 torchvision==0.16.2
-timm==0.9.12
-segmentation-models-pytorch==0.3.3
+
 albumentations==1.4.0
 scikit-image==0.22.0
 
-# Utilities
-rich==14.2.0
