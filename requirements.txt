@@ -1,18 +1,15 @@
 # Core
-streamlit==1.32.2
-numpy==1.26.4
-pandas==2.2.2
-Pillow==10.3.0
-matplotlib==3.8.4
-
+streamlit
+numpy
+pandas
+Pillow
+matplotlib
 # OpenCV (headless ONLY)
-opencv-python-headless==4.9.0.80
+opencv-python-headless
 
 # ML / DL
-torch==2.1.2
-torchvision==0.16.2
+torch
+torchvision
 
-albumentations==1.4.0
-scikit-image==0.22.0
-# Utilities
-rich==14.2.0
+albumentations
+scikit-image
