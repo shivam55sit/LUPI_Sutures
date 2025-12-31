@@ -7,6 +7,10 @@ from models import StudentModel
 import os
 from pathlib import Path
 
+
+os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
+
+
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 NUM_SECTORS = 12
 
